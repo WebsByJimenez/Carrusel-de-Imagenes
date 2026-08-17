@@ -5,13 +5,15 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![Licencia MIT](https://img.shields.io/badge/Licencia-MIT-green?style=for-the-badge)
 
+[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live%20Demo-brightgreen?logo=github)](https://WebsByJimenez.github.io/Carrusel-de-Imagenes/)
+
 Un componente de carrusel de imágenes ligero, modular y altamente accesible desarrollado con **Vanilla JavaScript (ES6 Modules)**, **CSS3** y **HTML5 Semántico**, sin dependencias externas.
 
 ---
 
-## 🚀 Demostración en Vivo
-
-[🔗 Ver Demo en GitHub Pages](https://tu-usuario.github.io/tu-repositorio/)
+<p align="center">
+  <img src="./img/carouselDeImagenes.jpg" alt="Carrusel de imágenes" width="600">
+</p>
 
 ---
 
@@ -42,10 +44,12 @@ Un componente de carrusel de imágenes ligero, modular y altamente accesible des
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml      # CI/CD: Despliegue automático a GitHub Pages
-├── data/
-│   └── slides.json         # Datos dinámicos de las imágenes
 ├── css/
 │   └── estilos.css         # Estilos globales y variables CSS
+├── data/
+│   └── slides.json         # Datos dinámicos de las imágenes
+├── img/
+│   └── carouselDeImagenes.jpg # Captura de pantalla para el README
 ├── js/
 │   ├── Carousel.js         # Clase principal del carrusel
 │   ├── TouchHandler.js     # Módulo para detección de gestos táctiles
