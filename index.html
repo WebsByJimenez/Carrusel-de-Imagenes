@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Carrusel de imágenes modular, accesible y responsive desarrollado con HTML5, CSS3 y JavaScript vanilla ES6+." />
+    <title>Carrusel Profesional ES6+</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./css/estilos.css" />
+  </head>
+  <body>
+    <main class="app-container">
+      <section class="carousel" aria-label="Galería interactiva" tabindex="0">
+        <!-- Renderizado dinámico de diapositivas -->
+        <div class="carousel__track-container">
+          <ul class="carousel__track" id="carouselTrack"></ul>
+        </div>
+
+        <!-- Botones de Navegación -->
+        <button
+          class="carousel__button carousel__button--prev"
+          id="prevBtn"
+          aria-label="Diapositiva anterior">
+          <i class="bi bi-chevron-left" aria-hidden="true"></i>
+        </button>
+        <button
+          class="carousel__button carousel__button--next"
+          id="nextBtn"
+          aria-label="Siguiente diapositiva">
+          <i class="bi bi-chevron-right" aria-hidden="true"></i>
+        </button>
+
+        <!-- Indicadores (Puntos) -->
+        <div
+          class="carousel__nav"
+          id="carouselNav"
+          role="tablist"
+          aria-label="Seleccionar diapositiva"></div>
+      </section>
+    </main>
+
+    <script type="module" src="./js/main.js"></script>
+  </body>
+</html>

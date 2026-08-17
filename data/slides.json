@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "url": "https://picsum.photos/id/237/1200/675",
+    "alt": "Perro labrador negro mirando fijamente a la cámara",
+    "title": "Compañero Fiel",
+    "description": "Retrato de alta resolución de un labrador en entorno natural."
+  },
+  {
+    "id": 2,
+    "url": "https://picsum.photos/id/2/1200/675",
+    "alt": "Persona trabajando con una computadora portátil y café",
+    "title": "Espacio de Trabajo",
+    "description": "Entorno moderno para desarrollo de software y diseño."
+  },
+  {
+    "id": 3,
+    "url": "https://picsum.photos/id/10/1200/675",
+    "alt": "Bosque frondoso cubierto de niebla matutina",
+    "title": "Naturaleza Mística",
+    "description": "Paisaje natural capturado durante las primeras horas del día."
+  },
+  {
+    "id": 4,
+    "url": "https://picsum.photos/id/20/1200/675",
+    "alt": "Mesa de trabajo ordenada con cuadernos y herramientas de escritura",
+    "title": "Planificación Creativa",
+    "description": "Organización de proyectos y lluvia de ideas visual."
+  }
+]
